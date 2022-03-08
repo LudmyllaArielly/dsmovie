@@ -1,0 +1,27 @@
+
+/*Importando font do google*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+/*Definindo cor da barra de navegacao*/
+:root {
+  --color-primary: #4D41C0;
+}
+
+/*Nao ocupar espaco a mais do que voce definir.
+Definindo fonte para todos componentes*/
+* {
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*Definindo cor de fundo*/
+html, body {
+    background-color: #E8E8E8;
+}
+
+/*Sempre que tiver link, nao quero decoracao no texto
+e nao vou setar uma cor para ele*/
+a, a:hover {
+  text-decoration: none;
+  color: unset;
+}
